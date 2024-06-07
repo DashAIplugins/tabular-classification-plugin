@@ -1,6 +1,6 @@
 [project]
-name = "dashai_test_tabular_classification_package"
-version = "0.2.0"
+name = "dashai_test2_tabular_classification_package"
+version = "0.1.0"
 dependencies = [
     'scikit-learn >= 1.2.1',
 ]
@@ -24,10 +24,6 @@ knn = 'dashai_test_tabular_classification_package.k_neighbors_classifier:KNeighb
 randomForest = 'dashai_test_tabular_classification_package.random_forest_classifier:RandomForestClassifier'
 svc = 'dashai_test_tabular_classification_package.svc:SVC'
 logisticRegression = 'dashai_test_tabular_classification_package.logistic_regression:LogisticRegression'
-
-[project.urls]
-Homepage = "https://github.com/DashAISoftware/DashAI"
-Issues = "https://github.com/DashAISoftware/DashAI/issues"
 
 [build-system]
 requires = ["hatchling"]
