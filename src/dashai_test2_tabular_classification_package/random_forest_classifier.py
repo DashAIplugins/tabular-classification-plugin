@@ -1,5 +1,3 @@
-from sklearn.ensemble import RandomForestClassifier as _RandomForestClassifier
-
 from DashAI.back.core.schema_fields import (
     BaseSchema,
     int_field,
@@ -7,7 +5,11 @@ from DashAI.back.core.schema_fields import (
     schema_field,
 )
 from DashAI.back.models.scikit_learn.sklearn_like_model import SklearnLikeModel
-from DashAI.back.models.tabular_classification_model import TabularClassificationModel
+from sklearn.ensemble import RandomForestClassifier as _RandomForestClassifier
+
+from dashai_test2_tabular_classification_package.tabular_classification_model import (
+    TabularClassificationModel,
+)
 
 
 class RandomForestClassifierSchema(BaseSchema):

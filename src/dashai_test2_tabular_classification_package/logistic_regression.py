@@ -1,5 +1,3 @@
-from sklearn.linear_model import LogisticRegression as _LogisticRegression
-
 from DashAI.back.core.schema_fields import (
     BaseSchema,
     enum_field,
@@ -9,7 +7,11 @@ from DashAI.back.core.schema_fields import (
     schema_field,
 )
 from DashAI.back.models.scikit_learn.sklearn_like_model import SklearnLikeModel
-from DashAI.back.models.tabular_classification_model import TabularClassificationModel
+from sklearn.linear_model import LogisticRegression as _LogisticRegression
+
+from dashai_test2_tabular_classification_package.tabular_classification_model import (
+    TabularClassificationModel,
+)
 
 
 class LogisticRegressionSchema(BaseSchema):
