@@ -1,6 +1,6 @@
 [project]
 name = "dashai_test2_tabular_classification_package"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
     'scikit-learn >= 1.2.1',
 ]
