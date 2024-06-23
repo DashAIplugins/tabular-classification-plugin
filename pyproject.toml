@@ -1,6 +1,6 @@
 [project]
 name = "dashai_test2_tabular_classification_package"
-version = "0.1.5"
+version = "0.1.6"
 dependencies = [
     'scikit-learn >= 1.2.1',
 ]
@@ -25,7 +25,7 @@ tabularTask = 'dashai_test2_tabular_classification_package.tabular_classificatio
 knn = 'dashai_test2_tabular_classification_package.scikit_learn.k_neighbors_classifier:KNeighborsClassifier'
 randomForest = 'dashai_test2_tabular_classification_package.scikit_learn.random_forest_classifier:RandomForestClassifier'
 svc = 'dashai_test2_tabular_classification_package.scikit_learn.svc:SVC'
-hgboosting = 'dashai_test2_tabular_classification_package.scikit_learn.hist_gradient_boosting:HistGradientBoostingClassifier'
+hgboosting = 'dashai_test2_tabular_classification_package.scikit_learn.hist_gradient_boosting_classifier:HistGradientBoostingClassifier'
 decisionTree = 'dashai_test2_tabular_classification_package.scikit_learn.decision_tree_classifier:DecisionTreeClassifier'
 scikit = 'dashai_test2_tabular_classification_package.sklearn_like_model:SklearnLikeModel'
 
