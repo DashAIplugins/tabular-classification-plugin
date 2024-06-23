@@ -4,12 +4,13 @@ from DashAI.back.core.schema_fields import (
     int_field,
     schema_field,
 )
-from DashAI.back.models.scikit_learn.sklearn_like_model import SklearnLikeModel
-from sklearn.neighbors import KNeighborsClassifier as _KNeighborsClassifier
-
+from dashai_test2_tabular_classification_package.scikit_learn.sklearn_like_model import (
+    SklearnLikeModel,
+)
 from dashai_test2_tabular_classification_package.tabular_classification_model import (
     TabularClassificationModel,
 )
+from sklearn.neighbors import KNeighborsClassifier as _KNeighborsClassifier
 
 
 class KNeighborsClassifierSchema(BaseSchema):

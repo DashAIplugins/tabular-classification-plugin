@@ -6,12 +6,13 @@ from DashAI.back.core.schema_fields import (
     int_field,
     schema_field,
 )
-from DashAI.back.models.scikit_learn.sklearn_like_model import SklearnLikeModel
-from sklearn.svm import SVC as _SVC
-
+from dashai_test2_tabular_classification_package.scikit_learn.sklearn_like_model import (
+    SklearnLikeModel,
+)
 from dashai_test2_tabular_classification_package.tabular_classification_model import (
     TabularClassificationModel,
 )
+from sklearn.svm import SVC as _SVC
 
 
 class SVCSchema(BaseSchema):

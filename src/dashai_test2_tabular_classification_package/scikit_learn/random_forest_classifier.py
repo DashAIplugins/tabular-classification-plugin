@@ -4,12 +4,13 @@ from DashAI.back.core.schema_fields import (
     none_type,
     schema_field,
 )
-from DashAI.back.models.scikit_learn.sklearn_like_model import SklearnLikeModel
-from sklearn.ensemble import RandomForestClassifier as _RandomForestClassifier
-
+from dashai_test2_tabular_classification_package.scikit_learn.sklearn_like_model import (
+    SklearnLikeModel,
+)
 from dashai_test2_tabular_classification_package.tabular_classification_model import (
     TabularClassificationModel,
 )
+from sklearn.ensemble import RandomForestClassifier as _RandomForestClassifier
 
 
 class RandomForestClassifierSchema(BaseSchema):
