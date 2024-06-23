@@ -6,7 +6,7 @@ from DashAI.back.core.schema_fields import (
     none_type,
     schema_field,
 )
-from dashai_test2_tabular_classification_package.scikit_learn.sklearn_like_model import (
+from dashai_test2_tabular_classification_package.sklearn_like_model import (
     SklearnLikeModel,
 )
 from dashai_test2_tabular_classification_package.tabular_classification_model import (
