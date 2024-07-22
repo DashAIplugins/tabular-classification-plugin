@@ -1,4 +1,4 @@
-# **Tabular Classification Package**
+# **Tabular Classification Plugin**
 
 ## **Modelos**
 

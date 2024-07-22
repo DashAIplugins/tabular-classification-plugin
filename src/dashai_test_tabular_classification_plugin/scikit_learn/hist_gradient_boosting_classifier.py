@@ -4,14 +4,15 @@ from DashAI.back.core.schema_fields import (
     int_field,
     schema_field,
 )
-from dashai_test2_tabular_classification_package.sklearn_like_model import (
-    SklearnLikeModel,
-)
-from dashai_test2_tabular_classification_package.tabular_classification_model import (
-    TabularClassificationModel,
-)
 from sklearn.ensemble import (
     HistGradientBoostingClassifier as _HistGradientBoostingClassifier,
+)
+
+from dashai_test_tabular_classification_plugin.sklearn_like_model import (
+    SklearnLikeModel,
+)
+from dashai_test_tabular_classification_plugin.tabular_classification_model import (
+    TabularClassificationModel,
 )
 
 
