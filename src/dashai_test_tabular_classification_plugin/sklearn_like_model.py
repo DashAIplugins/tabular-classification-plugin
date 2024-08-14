@@ -2,12 +2,12 @@ from typing import Type, Union
 
 import joblib
 import pandas as pd
-
+from DashAI.back.config_object import ConfigObject
 from DashAI.back.dataloaders.classes.dashai_dataset import DashAIDataset
 from DashAI.back.models.base_model import BaseModel
 
 
-class SklearnLikeModel(BaseModel):
+class SklearnLikeModel(BaseModel, ConfigObject):
     """Abstract class to define the way to save sklearn like models."""
 
     def save(self, filename: str) -> None:

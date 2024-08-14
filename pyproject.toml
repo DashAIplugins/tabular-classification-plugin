@@ -1,6 +1,6 @@
 [project]
 name = "dashai_test_tabular_classification_plugin"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = [
     'scikit-learn >= 1.2.1',
     'dashai_test_classification_metrics_plugin',
@@ -28,6 +28,8 @@ svc = 'dashai_test_tabular_classification_plugin.scikit_learn.svc:SVC'
 hgboosting = 'dashai_test_tabular_classification_plugin.scikit_learn.hist_gradient_boosting_classifier:HistGradientBoostingClassifier'
 decisionTree = 'dashai_test_tabular_classification_plugin.scikit_learn.decision_tree_classifier:DecisionTreeClassifier'
 scikit = 'dashai_test_tabular_classification_plugin.sklearn_like_model:SklearnLikeModel'
+csvDataloader = 'dashai_test_tabular_classification_plugin.csv_dataloader:CSVDataLoader'
+jsonDataloader = 'dashai_test_tabular_classification_plugin.json_dataloader:JSONDataLoader'
 
 [build-system]
 requires = ["hatchling"]
