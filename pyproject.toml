@@ -1,6 +1,6 @@
 [project]
 name = "dashai_test_tabular_classification_plugin"
-version = "0.0.2"
+version = "0.0.3"
 dependencies = [
     'scikit-learn >= 1.2.1',
     'dashai_test_classification_metrics_plugin',
